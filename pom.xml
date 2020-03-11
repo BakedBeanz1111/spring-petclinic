@@ -275,7 +275,6 @@
           </dependency>
         </dependencies>
       </plugin>
-    </plugins>
 	
 	<plugin>
 		<groupId>org.apache.maven.plugins</groupId>
@@ -290,6 +289,7 @@
 		</executions>
 	</plugin>
 	
+	</plugins>
   </build>
 
   <!-- Apache 2 license -->
