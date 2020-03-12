@@ -1,15 +1,14 @@
 
 
-![](Images/1st%20build.PNG)
+```dockerfile
+# Dockerfile
+FROM	openjdk:8u191-jre-alpine
+EXPOSE	8080
+COPY	./target/spring-petclinic-2.2.0.BUILD-SNAPSHOT.jar /usr/app/
+WORKDIR	/usr/app/
+ENTRYPOINT	["java", "-jar", "spring-petclinic-2.2.0.BUILD-SNAPSHOT.jar"]
+```
 
-![](Images/2nd%20build.PNG)
+![](Images/HW8/docker%201.PNG)
 
-![](Images/Build%203%20Failed.PNG)
-
-![](Images/Build%204%20Fixed.PNG)
-
-![](Images/Forked%20Repo.PNG)
-
-![](Images/readme%20failed.PNG)
-
-![](Images/readme%20passed.PNG)
+![](Images/HW8/docker%203.PNG)
